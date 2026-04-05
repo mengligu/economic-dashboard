@@ -1,8 +1,10 @@
+# Core dependencies
 streamlit>=1.30.0
 pandas>=2.0.0
 plotly>=5.20.0
 yfinance>=0.2.25
-pandas-datareader>=0.10.0
-requests>=2.31.0
 python-dateutil>=2.8.2
-streamlit-cachey>=0.1.2
+requests>=2.31.0
+
+# Fallback data source (optional)
+# pandas-datareader>=0.10.0  # Commented out - not needed with synthetic data
